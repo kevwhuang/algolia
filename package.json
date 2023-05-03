@@ -1,0 +1,25 @@
+{
+    "name": "algolia",
+    "scripts": {
+        "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
+        "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start"
+    },
+    "dependencies": {
+        "axios": "*",
+        "react": "*",
+        "react-dom": "*",
+        "react-scripts": "*"
+    },
+    "browserslist": {
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ],
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ]
+    }
+}
